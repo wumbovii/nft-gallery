@@ -22,8 +22,11 @@ pnpm create next-app --example with-tailwindcss with-tailwindcss-app
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
+# Deploy
+npm run dev
+
 # Test Collection ADDR
 BAYC - 0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d
 
 # Test User Wallet ADDR
-0xDAA50a02340cBcFA1a6F4c02765430Ffe411b188
+https://opensea.io/WinnersVault - 0xDAA50a02340cBcFA1a6F4c02765430Ffe411b188
