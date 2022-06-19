@@ -1,4 +1,6 @@
+import { NFTCard } from "../components/nftCard"
 import { useState } from 'react'
+
 const api_key = "pku8X9d8U3r5hg5TTtkXZY-uwSfd7vd1" // TODO read from configs
 
 const Home = () => {
@@ -65,6 +67,15 @@ const Home = () => {
             }
           }
         }>Let's go! </button>
+        <div className='flex flex-wrap gap-y-12 mt-4 w-5/6 gap-x-2 justify-center'>
+        {
+          NFTs.length && NFTs.map(nft => {
+            return (
+              <NFTCard nft={nft}></NFTCard>
+            )
+          })
+        }
+      </div>
       </div>
     </div>
   )
